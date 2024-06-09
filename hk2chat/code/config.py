@@ -1,0 +1,5 @@
+class Config:
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///chat_app.db'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False 
+    SECRET_KEY = 'hk21019DcPu101920021752Hacker02LITlItgNoL@!?'
+    JWT_SECRET_KEY = 'hk21019DcPu101920021752Hacker02LITlItgNoL@!?JWTEncoder'
